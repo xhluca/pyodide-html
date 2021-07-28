@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="pyodide-html",
-    version="0.0.1",
+    version="0.1.0",
     author="Xing Han Lu",
     author_email="github@xinghanlu.com",
     description="HTML elements for pyodide, implemented as Python functions",
