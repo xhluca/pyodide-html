@@ -1,0 +1,573 @@
+Python Library Documentation: package pyodide_html
+
+NAME
+    pyodide_html
+
+PACKAGE CONTENTS
+
+
+FUNCTIONS
+    a(*children, **props)
+        Creates the 'a' HTML element. It's equivalent to calling  '<a **props>*children</a>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
+    
+    abbr(*children, **props)
+        Creates the 'abbr' HTML element. It's equivalent to calling  '<abbr **props>*children</abbr>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/abbr
+    
+    address(*children, **props)
+        Creates the 'address' HTML element. It's equivalent to calling  '<address **props>*children</address>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address
+    
+    area(*children, **props)
+        Creates the 'area' HTML element. It's equivalent to calling  '<area **props>*children</area>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area
+    
+    article(*children, **props)
+        Creates the 'article' HTML element. It's equivalent to calling  '<article **props>*children</article>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article
+    
+    aside(*children, **props)
+        Creates the 'aside' HTML element. It's equivalent to calling  '<aside **props>*children</aside>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside
+    
+    audio(*children, **props)
+        Creates the 'audio' HTML element. It's equivalent to calling  '<audio **props>*children</audio>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio
+    
+    b(*children, **props)
+        Creates the 'b' HTML element. It's equivalent to calling  '<b **props>*children</b>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b
+    
+    bdi(*children, **props)
+        Creates the 'bdi' HTML element. It's equivalent to calling  '<bdi **props>*children</bdi>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdi
+    
+    bdo(*children, **props)
+        Creates the 'bdo' HTML element. It's equivalent to calling  '<bdo **props>*children</bdo>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdo
+    
+    blockquote(*children, **props)
+        Creates the 'blockquote' HTML element. It's equivalent to calling  '<blockquote **props>*children</blockquote>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote
+    
+    body(*children, **props)
+        Creates the 'body' HTML element. It's equivalent to calling  '<body **props>*children</body>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body
+    
+    br(*children, **props)
+        Creates the 'br' HTML element. It's equivalent to calling  '<br **props>*children</br>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br
+    
+    build_element(tag)
+        Builds an element from a tag name.
+    
+    button(*children, **props)
+        Creates the 'button' HTML element. It's equivalent to calling  '<button **props>*children</button>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button
+    
+    canvas(*children, **props)
+        Creates the 'canvas' HTML element. It's equivalent to calling  '<canvas **props>*children</canvas>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas
+    
+    caption(*children, **props)
+        Creates the 'caption' HTML element. It's equivalent to calling  '<caption **props>*children</caption>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/caption
+    
+    cite(*children, **props)
+        Creates the 'cite' HTML element. It's equivalent to calling  '<cite **props>*children</cite>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite
+    
+    code(*children, **props)
+        Creates the 'code' HTML element. It's equivalent to calling  '<code **props>*children</code>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code
+    
+    col(*children, **props)
+        Creates the 'col' HTML element. It's equivalent to calling  '<col **props>*children</col>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/col
+    
+    colgroup(*children, **props)
+        Creates the 'colgroup' HTML element. It's equivalent to calling  '<colgroup **props>*children</colgroup>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/colgroup
+    
+    data(*children, **props)
+        Creates the 'data' HTML element. It's equivalent to calling  '<data **props>*children</data>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/data
+    
+    datalist(*children, **props)
+        Creates the 'datalist' HTML element. It's equivalent to calling  '<datalist **props>*children</datalist>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/datalist
+    
+    dd(*children, **props)
+        Creates the 'dd' HTML element. It's equivalent to calling  '<dd **props>*children</dd>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dd
+    
+    del(*children, **props)
+        Creates the 'del' HTML element. It's equivalent to calling  '<del **props>*children</del>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/del
+    
+    details(*children, **props)
+        Creates the 'details' HTML element. It's equivalent to calling  '<details **props>*children</details>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details
+    
+    dfn(*children, **props)
+        Creates the 'dfn' HTML element. It's equivalent to calling  '<dfn **props>*children</dfn>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dfn
+    
+    dialog(*children, **props)
+        Creates the 'dialog' HTML element. It's equivalent to calling  '<dialog **props>*children</dialog>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog
+    
+    div(*children, **props)
+        Creates the 'div' HTML element. It's equivalent to calling  '<div **props>*children</div>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div
+    
+    dl(*children, **props)
+        Creates the 'dl' HTML element. It's equivalent to calling  '<dl **props>*children</dl>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl
+    
+    dt(*children, **props)
+        Creates the 'dt' HTML element. It's equivalent to calling  '<dt **props>*children</dt>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dt
+    
+    em(*children, **props)
+        Creates the 'em' HTML element. It's equivalent to calling  '<em **props>*children</em>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em
+    
+    embed(*children, **props)
+        Creates the 'embed' HTML element. It's equivalent to calling  '<embed **props>*children</embed>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed
+    
+    fieldset(*children, **props)
+        Creates the 'fieldset' HTML element. It's equivalent to calling  '<fieldset **props>*children</fieldset>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset
+    
+    figcaption(*children, **props)
+        Creates the 'figcaption' HTML element. It's equivalent to calling  '<figcaption **props>*children</figcaption>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption
+    
+    figure(*children, **props)
+        Creates the 'figure' HTML element. It's equivalent to calling  '<figure **props>*children</figure>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure
+    
+    footer(*children, **props)
+        Creates the 'footer' HTML element. It's equivalent to calling  '<footer **props>*children</footer>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer
+    
+    form(*children, **props)
+        Creates the 'form' HTML element. It's equivalent to calling  '<form **props>*children</form>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form
+    
+    h1(*children, **props)
+        Creates the 'h1' HTML element. It's equivalent to calling  '<h1 **props>*children</h1>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h1
+    
+    h2(*children, **props)
+        Creates the 'h2' HTML element. It's equivalent to calling  '<h2 **props>*children</h2>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h2
+    
+    h3(*children, **props)
+        Creates the 'h3' HTML element. It's equivalent to calling  '<h3 **props>*children</h3>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h3
+    
+    h4(*children, **props)
+        Creates the 'h4' HTML element. It's equivalent to calling  '<h4 **props>*children</h4>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h4
+    
+    h5(*children, **props)
+        Creates the 'h5' HTML element. It's equivalent to calling  '<h5 **props>*children</h5>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h5
+    
+    h6(*children, **props)
+        Creates the 'h6' HTML element. It's equivalent to calling  '<h6 **props>*children</h6>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h6
+    
+    head(*children, **props)
+        Creates the 'head' HTML element. It's equivalent to calling  '<head **props>*children</head>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head
+    
+    header(*children, **props)
+        Creates the 'header' HTML element. It's equivalent to calling  '<header **props>*children</header>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header
+    
+    hr(*children, **props)
+        Creates the 'hr' HTML element. It's equivalent to calling  '<hr **props>*children</hr>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr
+    
+    i(*children, **props)
+        Creates the 'i' HTML element. It's equivalent to calling  '<i **props>*children</i>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i
+    
+    iframe(*children, **props)
+        Creates the 'iframe' HTML element. It's equivalent to calling  '<iframe **props>*children</iframe>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe
+    
+    img(*children, **props)
+        Creates the 'img' HTML element. It's equivalent to calling  '<img **props>*children</img>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img
+    
+    input(*children, **props)
+        Creates the 'input' HTML element. It's equivalent to calling  '<input **props>*children</input>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
+    
+    ins(*children, **props)
+        Creates the 'ins' HTML element. It's equivalent to calling  '<ins **props>*children</ins>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ins
+    
+    js()
+    
+    kbd(*children, **props)
+        Creates the 'kbd' HTML element. It's equivalent to calling  '<kbd **props>*children</kbd>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd
+    
+    label(*children, **props)
+        Creates the 'label' HTML element. It's equivalent to calling  '<label **props>*children</label>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label
+    
+    legend(*children, **props)
+        Creates the 'legend' HTML element. It's equivalent to calling  '<legend **props>*children</legend>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/legend
+    
+    li(*children, **props)
+        Creates the 'li' HTML element. It's equivalent to calling  '<li **props>*children</li>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li
+    
+    link(*children, **props)
+        Creates the 'link' HTML element. It's equivalent to calling  '<link **props>*children</link>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link
+    
+    main(*children, **props)
+        Creates the 'main' HTML element. It's equivalent to calling  '<main **props>*children</main>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main
+    
+    map(*children, **props)
+        Creates the 'map' HTML element. It's equivalent to calling  '<map **props>*children</map>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/map
+    
+    mark(*children, **props)
+        Creates the 'mark' HTML element. It's equivalent to calling  '<mark **props>*children</mark>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/mark
+    
+    math(*children, **props)
+        Creates the 'math' HTML element. It's equivalent to calling  '<math **props>*children</math>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/math
+    
+    menu(*children, **props)
+        Creates the 'menu' HTML element. It's equivalent to calling  '<menu **props>*children</menu>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/menu
+    
+    meta(*children, **props)
+        Creates the 'meta' HTML element. It's equivalent to calling  '<meta **props>*children</meta>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
+    
+    meter(*children, **props)
+        Creates the 'meter' HTML element. It's equivalent to calling  '<meter **props>*children</meter>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter
+    
+    nav(*children, **props)
+        Creates the 'nav' HTML element. It's equivalent to calling  '<nav **props>*children</nav>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav
+    
+    noscript(*children, **props)
+        Creates the 'noscript' HTML element. It's equivalent to calling  '<noscript **props>*children</noscript>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/noscript
+    
+    object(*children, **props)
+        Creates the 'object' HTML element. It's equivalent to calling  '<object **props>*children</object>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object
+    
+    ol(*children, **props)
+        Creates the 'ol' HTML element. It's equivalent to calling  '<ol **props>*children</ol>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol
+    
+    optgroup(*children, **props)
+        Creates the 'optgroup' HTML element. It's equivalent to calling  '<optgroup **props>*children</optgroup>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/optgroup
+    
+    option(*children, **props)
+        Creates the 'option' HTML element. It's equivalent to calling  '<option **props>*children</option>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option
+    
+    output(*children, **props)
+        Creates the 'output' HTML element. It's equivalent to calling  '<output **props>*children</output>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/output
+    
+    p(*children, **props)
+        Creates the 'p' HTML element. It's equivalent to calling  '<p **props>*children</p>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p
+    
+    param(*children, **props)
+        Creates the 'param' HTML element. It's equivalent to calling  '<param **props>*children</param>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/param
+    
+    picture(*children, **props)
+        Creates the 'picture' HTML element. It's equivalent to calling  '<picture **props>*children</picture>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture
+    
+    portal(*children, **props)
+        Creates the 'portal' HTML element. It's equivalent to calling  '<portal **props>*children</portal>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/portal
+    
+    pre(*children, **props)
+        Creates the 'pre' HTML element. It's equivalent to calling  '<pre **props>*children</pre>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre
+    
+    progress(*children, **props)
+        Creates the 'progress' HTML element. It's equivalent to calling  '<progress **props>*children</progress>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress
+    
+    q(*children, **props)
+        Creates the 'q' HTML element. It's equivalent to calling  '<q **props>*children</q>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q
+    
+    rp(*children, **props)
+        Creates the 'rp' HTML element. It's equivalent to calling  '<rp **props>*children</rp>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/rp
+    
+    rt(*children, **props)
+        Creates the 'rt' HTML element. It's equivalent to calling  '<rt **props>*children</rt>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/rt
+    
+    ruby(*children, **props)
+        Creates the 'ruby' HTML element. It's equivalent to calling  '<ruby **props>*children</ruby>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ruby
+    
+    s(*children, **props)
+        Creates the 's' HTML element. It's equivalent to calling  '<s **props>*children</s>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/s
+    
+    samp(*children, **props)
+        Creates the 'samp' HTML element. It's equivalent to calling  '<samp **props>*children</samp>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/samp
+    
+    script(*children, **props)
+        Creates the 'script' HTML element. It's equivalent to calling  '<script **props>*children</script>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script
+    
+    section(*children, **props)
+        Creates the 'section' HTML element. It's equivalent to calling  '<section **props>*children</section>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section
+    
+    select(*children, **props)
+        Creates the 'select' HTML element. It's equivalent to calling  '<select **props>*children</select>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select
+    
+    slot(*children, **props)
+        Creates the 'slot' HTML element. It's equivalent to calling  '<slot **props>*children</slot>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/slot
+    
+    small(*children, **props)
+        Creates the 'small' HTML element. It's equivalent to calling  '<small **props>*children</small>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/small
+    
+    source(*children, **props)
+        Creates the 'source' HTML element. It's equivalent to calling  '<source **props>*children</source>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source
+    
+    span(*children, **props)
+        Creates the 'span' HTML element. It's equivalent to calling  '<span **props>*children</span>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span
+    
+    strong(*children, **props)
+        Creates the 'strong' HTML element. It's equivalent to calling  '<strong **props>*children</strong>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong
+    
+    style(*children, **props)
+        Creates the 'style' HTML element. It's equivalent to calling  '<style **props>*children</style>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style
+    
+    sub(*children, **props)
+        Creates the 'sub' HTML element. It's equivalent to calling  '<sub **props>*children</sub>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sub
+    
+    summary(*children, **props)
+        Creates the 'summary' HTML element. It's equivalent to calling  '<summary **props>*children</summary>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary
+    
+    sup(*children, **props)
+        Creates the 'sup' HTML element. It's equivalent to calling  '<sup **props>*children</sup>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sup
+    
+    svg(*children, **props)
+        Creates the 'svg' HTML element. It's equivalent to calling  '<svg **props>*children</svg>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/svg
+    
+    table(*children, **props)
+        Creates the 'table' HTML element. It's equivalent to calling  '<table **props>*children</table>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table
+    
+    tbody(*children, **props)
+        Creates the 'tbody' HTML element. It's equivalent to calling  '<tbody **props>*children</tbody>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody
+    
+    td(*children, **props)
+        Creates the 'td' HTML element. It's equivalent to calling  '<td **props>*children</td>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td
+    
+    template(*children, **props)
+        Creates the 'template' HTML element. It's equivalent to calling  '<template **props>*children</template>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template
+    
+    textarea(*children, **props)
+        Creates the 'textarea' HTML element. It's equivalent to calling  '<textarea **props>*children</textarea>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea
+    
+    tfoot(*children, **props)
+        Creates the 'tfoot' HTML element. It's equivalent to calling  '<tfoot **props>*children</tfoot>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tfoot
+    
+    th(*children, **props)
+        Creates the 'th' HTML element. It's equivalent to calling  '<th **props>*children</th>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th
+    
+    thead(*children, **props)
+        Creates the 'thead' HTML element. It's equivalent to calling  '<thead **props>*children</thead>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead
+    
+    time(*children, **props)
+        Creates the 'time' HTML element. It's equivalent to calling  '<time **props>*children</time>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time
+    
+    title(*children, **props)
+        Creates the 'title' HTML element. It's equivalent to calling  '<title **props>*children</title>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title
+    
+    tr(*children, **props)
+        Creates the 'tr' HTML element. It's equivalent to calling  '<tr **props>*children</tr>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr
+    
+    track(*children, **props)
+        Creates the 'track' HTML element. It's equivalent to calling  '<track **props>*children</track>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track
+    
+    u(*children, **props)
+        Creates the 'u' HTML element. It's equivalent to calling  '<u **props>*children</u>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/u
+    
+    ul(*children, **props)
+        Creates the 'ul' HTML element. It's equivalent to calling  '<ul **props>*children</ul>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul
+    
+    var(*children, **props)
+        Creates the 'var' HTML element. It's equivalent to calling  '<var **props>*children</var>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/var
+    
+    video(*children, **props)
+        Creates the 'video' HTML element. It's equivalent to calling  '<video **props>*children</video>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video
+    
+    wbr(*children, **props)
+        Creates the 'wbr' HTML element. It's equivalent to calling  '<wbr **props>*children</wbr>'.
+        Values in `**props` will be converted from 'snake_case' to 'camelCase'.
+        For more information, please visit: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/wbr
